@@ -1,0 +1,23 @@
+Spring MVC 4 + Hibernate 5 + RESTful CRUD operations example---------------
+
+https://www.boraji.com/spring-mvc-4-hibernate-5-restful-crud-operations-example
+
+Spring Restful Web Services Example with JSON, Jackson and Client Program-----------------
+
+https://www.journaldev.com/2552/spring-rest-example-tutorial-spring-restful-web-services
+
+CRUD Using Spring MVC 4.0 RESTful Web Services and AngularJS 
+
+https://dzone.com/articles/an-engineering-approach-to-database-evaluations
+
+https://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/
+
+
+
+
+Name: Varnika Priydarshini
+Bank: HDFC BANK LTD
+AC/no: 50100212225360
+Ifsc:  HDFC0000683
+MICR Code: 695240004
+Branch: KAZHAKKOOTA - TRIVANDRUM
