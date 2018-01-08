@@ -10,14 +10,20 @@ CRUD Using Spring MVC 4.0 RESTful Web Services and AngularJS
 
 https://dzone.com/articles/an-engineering-approach-to-database-evaluations
 
+http://websystique.com/springmvc/spring-mvc-4-restful-web-services-crud-example-resttemplate/
+http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
+
+Done:
 https://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/
 
 
 
+[{"id":2,"firstName":"Dhyan","lastName":"Ravindran","department":null,"skillDatas":[]},
 
-Name: Varnika Priydarshini
-Bank: HDFC BANK LTD
-AC/no: 50100212225360
-Ifsc:  HDFC0000683
-MICR Code: 695240004
-Branch: KAZHAKKOOTA - TRIVANDRUM
+{"id":3,"firstName":"Desikan","lastName":"Kalidas","department":null,"skillDatas":[]},
+
+{"id":4,"firstName":"Sree","lastName":"Rekha","department":null,"skillDatas":[]},
+
+{"id":5,"firstName":"Murli","lastName":"Narayanan","department":null,"skillDatas":[]},
+
+{"id":6,"firstName":"Bhavesh","lastName":"Bhaskar","department":null,"skillDatas":[]}]
