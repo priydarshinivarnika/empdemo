@@ -16,7 +16,7 @@ http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
 Done:
 https://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/
 
-
+http://websystique.com/hibernate/hibernate-mysql-maven-hello-world-example-annotation/
 
 [{"id":2,"firstName":"Dhyan","lastName":"Ravindran","department":null,"skillDatas":[]},
 
@@ -27,3 +27,54 @@ https://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/
 {"id":5,"firstName":"Murli","lastName":"Narayanan","department":null,"skillDatas":[]},
 
 {"id":6,"firstName":"Bhavesh","lastName":"Bhaskar","department":null,"skillDatas":[]}]
+
+
+public List<Employee> findAllEmployees() {
+        return emps;
+    }
+     
+    public Employee findById(long id) {
+        for(Employee emp : emps){
+            if(emp.getId() == id){
+                return emp;
+            }
+        }
+        return null;
+    }
+     
+    public Employee findByName(String name) {
+        for(Employee emp : emps){
+            if(emp.getFirstName().equalsIgnoreCase(name)){
+                return emp;
+            }
+        }
+        return null;
+    }
+     
+    public void saveEmployee(Employee emp) {
+    	emp.setId(counter.incrementAndGet());
+    	emps.add(emp);
+    }
+ 
+    public void updateEmployee(Employee emp) {
+        int index = emps.indexOf(emp);
+        emps.set(index, emp);
+    }
+ 
+    public void deleteEmployeeById(long id) {
+         
+        for (Iterator<Employee> iterator = users.iterator(); iterator.hasNext(); ) {
+            Employee user = iterator.next();
+            if (user.getId() == id) {
+                iterator.remove();
+            }
+        }
+    }
+ 
+    public boolean isEmployeeExist(Employee user) {
+        return findByName(user.getUsername())!=null;
+    }
+     
+    public void deleteAllEmployees(){
+        users.clear();
+    }
