@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.ust.model.EmployeeData" table="EMPLOYEEDATA">
+		<meta attribute="class-description">This class contains the employee detail.</meta>
+		<id name="id" type="int" column="Emp_Id">
+			<generator class="identity"></generator>
+		</id>
+		<property name="firstName" column="Employee_FirstName" type="string" />
+		<property name="lastName" column="Employee_LastName" type="string" />
+		<property name="department" column="Employee_Department"
+			type="string" />
+			
+		<set name="skillDatas" table="Emp_SkillData" cascade="all">
+			<key>
+			<column name="EMP_ID" not-null="true" />
+			</key>
+			<one-to-many class="com.ust.model.SkillData" />
+			</set>
+	</class>
+</hibernate-mapping>  
+
