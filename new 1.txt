@@ -1,7 +1,0 @@
-\\USTTRVEFXK629DT\Shared
-create once update all the time property in hibernate.
-
-https://www.journaldev.com/3633/hibernate-interview-questions-and-answers
-https://www.javatpoint.com/hibernate-interview-questions
-https://career.guru99.com/hibernate-interview-questions/
-http://www.java67.com/2016/02/top-20-hibernate-interview-questions.html
